@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Ajoutez ces styles à votre fichier CSS (style1.css) */
+
+/* Style pour le conteneur de l'image */
+.image-container {
+    background-color: #fff; /* Couleur de fond */
+    background-image: url("assets/images/ciel.jpg"); /* Chemin de votre image SVG */
+    background-size: cover; /* Ajustement de la taille de l'image pour couvrir le conteneur */
+    background-position: center; /* Positionnement de l'image au centre */
+    background-repeat: no-repeat; /* Pas de répétition de l'image */
+    position: relative; /* Position relative pour positionner les éléments fils */
+}
+
+/* Style pour le texte superposé sur l'image */
+.overlay-text {
+    position: absolute; /* Position absolue pour superposer le texte */
+    top: 50%; /* Positionnement vertical au milieu */
+    left: 50%; /* Positionnement horizontal au milieu */
+    transform: translate(-50%, -50%); /* Ajustement pour centrer parfaitement */
+    text-align: center; /* Alignement du texte au centre */
+    color: #fff; /* Couleur du texte, ajustez selon vos besoins */
+}
+
+/* Style pour le corps de la page */
+body {
+    font-size: 16px; /* Taille de la police par défaut */
+}
+
+/* Conteneur parent pour l'image et le texte */
+.image-container {
+    position: relative;
+    display: inline-block;
+    top: 70px;
+  }
+  
+  /* Style de l'image */
+  .image-container img {
+    width: 85%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Styles des badges d'étape */
+  .badge-step1,
+  .badge-step2,
+  .badge-step3,
+  .badge-step4 {
+    background-color: transparent;
+    color: rgb(250, 245, 245);
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  .badge-step4 {
+    background-color: rgb(200, 238, 195);
+    color: rgb(26, 24, 24);
+  }
+  
+  /* Styles du texte d'étape */
+  .overlay-text h6 {
+    font-size: 16px;
+    margin-left: 35px;
+  }
+  
+  /* Styles de positionnement des étapes */
+  .step1,
+  .step2,
+  .step3,
+  .step4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .step1 { top: 10%; left: 35%; }
+  .step2 { top: 25%; left: 38%; }
+  .step3 { top: 39%; left: 32%; }
+  .step4 { top: 56%; left: 32%; }
+  
+  /* Styles supplémentaires */
+  .ml-2 {
+    color: #555;
+  }
+  
+  /* Autres styles pour d'autres parties de la page peuvent être ajoutés ici */
+  

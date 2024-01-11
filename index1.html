@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP1</title>
+    <!-- Inclusion des fichiers nécessaires -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="scripts/script2.js" defer></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <!-- Utilisez background-image avec la classe overlay-text pour le texte -->
+                        <div class="overlay-text">
+                            <div class="step1">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step1">1</span>
+                                <span class="ml-2">STEP 1</span>
+                                <h6><b>YOUR INFO</b></h6>
+                            </div>
+                            <div class="step2">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step2">2</span>
+                                <span class="ml-2">STEP 2</span>
+                                <h6><b>SELECT PLAN</b></h6>
+                            </div>
+                            <div class="step3">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step3">3</span>
+                                <span class="ml-2">STEP 3</span>
+                                <h6><b>ADD-ONS</b></h6>
+                            </div>
+                            <div class="step4">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step4">4</span>
+                                <span class="ml-2">STEP 4</span>
+                                <h6><b>SUMMary</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="form">
+                        <div class="Personal" ><b>Personal Info</b></div>
+                        <div id="passwordHelpBlock" class="form-text">
+                             Please provide your name, Email Adress and Phone Number
+                        </div><br><br>
+                         <!-- Formulaire pour collecter des informations personnelles -->
+                        <form info>
+                            <!-- Champ de formulaire pour le nom -->
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g Enter your name">
+                            </div>
+                               <!-- Champ de formulaire pour le mail -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g Enter your email address">
+                            </div>
+                               <!-- Champ de formulaire pour le numero telephone -->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="e.g +237 697 70 27 39">
+                            </div>
+                             <!-- Bouton de soumission -->
+                            <button type="submit" class="btn btn-primary">Next Step</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        
+    </footer>
+</body>
+</html>
